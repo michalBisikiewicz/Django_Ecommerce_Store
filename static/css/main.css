@@ -29,10 +29,15 @@ h1,h2,h3,h4,h5,h6{
     background-color: #4f868c!important;
 }
 
+#login-button{
+    margin-bottom: 5px;
+    margin-left: 1230px;
+}
+
 #cart-icon{
-    width:25px;
+    width:30px;
     display: inline-block;
-    margin-left: 15px;
+    margin-right: 60px;
 }
 
 #cart-total{
@@ -44,6 +49,12 @@ h1,h2,h3,h4,h5,h6{
     height: 25px;
     border-radius: 50%;
     font-size: 14px;
+    margin-left: 1325px;
+    margin-top: -55px;
+}
+
+#home-button{
+    margin-left: 10px;
 }
 
 .col-lg-4, .col-lg-6, .col-lg-8, .col-lg-12{
@@ -66,7 +77,7 @@ h1,h2,h3,h4,h5,h6{
 
 .cart-row{
     display: flex;
-    align-items: flex-stretch;
+    align-items: stretch;
     padding-bottom: 10px;
     margin-bottom: 10px;
     border-bottom: 1px solid #ececec;
